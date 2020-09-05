@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass The Message</title>
+    <style>
+        body{
+            background-color: #C6D9E6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+        .box{
+            
+            width: 700px;
+            height: 400px;
+            background-color:#F5F5F5;
+            border-radius: 20%;
+        }
+        h2{
+            margin-top: 7%;
+            text-align: center;
+        }
+        .mess{
+            margin-left:10%;
+        }
+        #message{
+            padding:10px 30%;
+        }
+        #btn{
+            margin-left: 40%;
+            margin-top:7px;
+            padding: 10px 30px;
+            background-color:#C6D9E6 ;
+            border: 1px solid #9ba0a3;
+            color:white;
+            
+        }
+        #show_message{
+            color:#9ba0a3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+            <h2>A Message You Would Like To Pass</h2>
+            <div class="mess"> 
+                <input type="text" id="message" > 
+            </div>
+            <div class="btn">
+                <button id="btn">Submit</button>
+            </div>
+            <div id="show">
+                <h2>Last Message Delivered </h2>
+                <h2 id="show_message">Do This Project</h2>
+
+            </div>
+            
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
